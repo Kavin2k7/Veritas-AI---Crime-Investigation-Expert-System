@@ -1,0 +1,109 @@
+{
+  "case": {
+    "case_number": "CR-2026-0142",
+    "title": "The Ashwood Burglary",
+    "location": "18 Ashwood Avenue, Chennai",
+    "date_time": "08 Sep 2026 · 21:30–23:15",
+    "description": "High-value residence burglary involving forced window entry and missing valuables."
+  },
+  "suspects": [
+    {
+      "name": "Arjun Rao",
+      "initials": "AR",
+      "role": "Former employee",
+      "color": "#C36A49",
+      "status": "Prime suspect",
+      "has_motive": 1,
+      "has_access": 1,
+      "time_window_passed": 1,
+      "physical_access_passed": 1,
+      "evidence_matched": 1,
+      "alibi_verified": 0,
+      "contradicts_evidence": 0,
+      "notes": "Financial dispute recorded, matched fingerprint at study window"
+    },
+    {
+      "name": "Nila Menon",
+      "initials": "NM",
+      "role": "Business associate",
+      "color": "#65786D",
+      "status": "Needs review",
+      "has_motive": 1,
+      "has_access": 0,
+      "time_window_passed": 1,
+      "physical_access_passed": 0,
+      "evidence_matched": 0,
+      "alibi_verified": 0,
+      "contradicts_evidence": 0,
+      "notes": "Stated alibi unverified, business motive present"
+    },
+    {
+      "name": "Vikram Kumar",
+      "initials": "VK",
+      "role": "Security guard",
+      "color": "#8B7765",
+      "status": "Needs review",
+      "has_motive": 0,
+      "has_access": 1,
+      "time_window_passed": 1,
+      "physical_access_passed": 1,
+      "evidence_matched": 0,
+      "alibi_verified": 1,
+      "contradicts_evidence": 0,
+      "notes": "Had access, partial alibi verified by guard log"
+    },
+    {
+      "name": "Dev Sharma",
+      "initials": "DS",
+      "role": "Neighbor",
+      "color": "#776C8D",
+      "status": "Eliminated",
+      "has_motive": 0,
+      "has_access": 0,
+      "time_window_passed": 0,
+      "physical_access_passed": 0,
+      "evidence_matched": 0,
+      "alibi_verified": 1,
+      "contradicts_evidence": 1,
+      "notes": "Alibi fully verified by camera footage outside area"
+    }
+  ],
+  "evidence": [
+    {
+      "icon": "fingerprint",
+      "title": "Partial fingerprint",
+      "category": "Fingerprint",
+      "meta_info": "Study window frame",
+      "tag": "MATCH",
+      "tone": "red",
+      "details": "Match identified for suspect Arjun Rao"
+    },
+    {
+      "icon": "camera",
+      "title": "CCTV footage",
+      "category": "CCTV footage",
+      "meta_info": "East gate · 22:14",
+      "tag": "VERIFIED",
+      "tone": "green",
+      "details": "Shows unidentified male matching height profile"
+    },
+    {
+      "icon": "file",
+      "title": "Witness statement",
+      "category": "Witness statement",
+      "meta_info": "Recorded · 09 Sep 2026",
+      "tag": "VALIDATED",
+      "tone": "green",
+      "details": "Neighbor reported suspicious vehicle at 22:00"
+    },
+    {
+      "icon": "evidence",
+      "title": "Recovered object",
+      "category": "Weapon / object",
+      "meta_info": "Metal tool · Evidence bag E-07",
+      "tag": "STORED",
+      "tone": "gold",
+      "details": "Pry tool recovered near perimeter fence"
+    }
+  ]
+}

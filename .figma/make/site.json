@@ -1,0 +1,11 @@
+{
+  "title": "Veritas Crime Investigation AI",
+  "description": "This AI-driven expert system streamlines crime investigations by identifying and validating suspects, generating logical reports, and enhancing decision-making for law enforcement.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
